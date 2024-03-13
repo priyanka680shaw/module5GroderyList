@@ -1,0 +1,46 @@
+.listContainer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(193, 245, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.lists{
+    width: 40%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 7px 2px black;
+    border-radius: 20px;
+    background-color: rgb(217, 200, 234);
+    margin: 20px;
+
+}
+
+.listCard{
+ width: 250px;
+    height: auto;
+   box-shadow: 2px 2px 7px 2px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 249, 249);
+    border-radius: 8px;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+button{
+  padding: 8px;
+  border : none;
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+}
